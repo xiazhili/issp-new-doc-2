@@ -1,0 +1,9 @@
+权限：
+  功能权限：
+	之前做的是功能导航权限，参照商务合同模块修改一下即可
+  导航下拉权限：
+	参照 商务合同模块businessproject->SiginManageAction->sonPermission , 基本复制
+  设置导航权限：
+	参照 商务合同模块businessproject->SiginManageAction->setButtonPermission，这个方法每个模块只写一次即可，直接复制这个方法过去。
+
+前端访问是先判断我们的“导航下拉权限”，再判断“功能权限”，而谁可以看到操作模块设置权限，我们是在组织结构的总设置权限处进行设置。
