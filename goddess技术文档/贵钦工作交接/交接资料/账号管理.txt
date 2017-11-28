@@ -1,0 +1,26 @@
+PC:
+ ÕÊºÅ root
+ ÃÜÂë root
+ ----------
+ ÕÊºÅ lgq
+ ÃÜÂë root
+
+163¹¤×÷ÓÊÏä:
+ ÕÊºÅ liguiqin_aj@163.com
+ ÃÜÂë abc123
+
+ISSPÆ½Ì¨:
+ ÕÊºÅ IKE002450
+ ÃÜÂë liguiqin123
+
+gitlab:
+ ÕÊºÅ liguiqin
+ ÃÜÂë liguiqin123
+
+163Email SMTP·şÎñÆ÷:
+ ÕÊºÅ zhzyb_aj@163.com
+ ÃÜÂë ikee111
+
+
+
+

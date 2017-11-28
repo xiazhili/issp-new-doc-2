@@ -1,0 +1,18 @@
+1.把要打包的模块写在项目的setting.gradle里面.
+2.打开命令界面：
+ 进入自己的项目下面，如 :cd goddess-java
+3.输入命令： gradle build -Ppro -xtest
+4.待运行完后，再次输入 gradle build -Ppro -xtest
+5.在浏览器输入网址：https://gitlab.bjike.com，进入gitlab,新建自己模块项目的consumer和provider。如
+   user-consumer 和 user-provider
+6.回到命令行，在命令行输入：mkdir gitlab 。把上一步建好的地址克隆到gitlab中。如：
+  git clone ssh://git@gitlab.bjike.com:10022/tanghaixiang/user-consumer.git
+  git clone ssh://git@gitlab.bjike.com:10022/tanghaixiang/user-provider.git
+7.把第4步打包好的lib文件拷到第6步的gitlab文件中的consumer和provider中。
+8.分别提交gitlab文件中的consumer和provider
+  git add .
+  git commit -m 'x'
+  git push
+9.在浏览器中输入网址：https://rancher.bjike.com
+ 把gitlab中自己的模块部署启动。
+
