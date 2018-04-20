@@ -1,0 +1,62 @@
+模块名:businessprojectmanage
+类名:BusinessContract
+作者:caiwenxian
+描述:项目合同基本信息
+#参数[变量类型  变量名 ]
+#parameter--------------
+(
+String businessContractId 商务合同信息表id;
+LocalDate summarizeStartDate 计划商务总结开始时间;
+LocalDate summarizeEndDate 计划商务总结完成时间;
+LocalDate summarizeFinishDate 实际商务总结完成时间;
+Boolean summarizeFinish 是否总结完成;
+Integer status 状态;
+)
+
+模块名:businessprojectmanage
+类名:NotificationFormula
+作者:caiwenxian
+描述:通报机制制定
+#参数[变量类型  变量名 ]
+#parameter--------------
+(
+Integer type 汇总类型;
+String creator 创建人;
+String modifier 修改人;
+Double sendFrequency 发送间隔;
+LocalDate sendTimeNode 发送时间节点;
+String sendObject 发送对象;
+Boolean sendSectoral 是否发送项目组/部门全部人;
+String conditions 汇总条件;
+String remark 备注;
+String sendNumAndUnit 发送间隔和单位;
+CollectSendUnit collectSendUnit 发送单位;
+CollectUnit collectUnit 汇总间隔;
+LocalDateTime lastSendTime 上次发送时间;
+Status status 状态
+
+)
+
+
+模块名:businessprojectmanage
+类名:CommunicationTemplate
+作者:caiwenxian
+描述:各类沟通交流模板
+#参数[变量类型  变量名 ]
+#parameter--------------
+(
+String templateNumber 模板编号;
+String belongType 所属类型;
+String type 分类;
+String triggerField 触发字段;
+String title 标题;
+String contentTemplate 邮件内容模板;
+String examples 例子
+String attachment 附件
+String mainObject 主送对象
+String ccObject 抄送对象
+String way 途径
+)
+
+
+

@@ -1,0 +1,95 @@
+模块名:rotation
+类名:RotationRecord
+作者:caiwenxian
+描述:岗位轮换记录
+#参数[变量类型  变量名 ]
+#parameter--------------
+(
+String rotationType 轮岗方式;
+String name 姓名;
+String area 地区;
+String department 项目组/部门;
+String position 岗位;
+String entryTime 入职时间;
+String turnPositiveTime 转正时间;
+String arrangement 目前岗位层级;
+String getTime 获得时间;
+String rotationArrangement 举荐轮换岗位层级;
+String reason 申请/举荐/任命轮换原因;
+String recommend 举荐人/申请人;
+String recommendTime 举荐时间;
+String rotationPosition 轮换后岗位;
+String rotationObject 轮换对象;
+String modulePrincipal 原模块负责人;
+String modulePrincipalSuggestion 原模块负责人意见;
+String manager 项目经理;
+String suggestion 意见;
+Boolean audit 是否通过;
+String rotationDate 轮换时间;
+Boolean notify 是否通报;
+Integer status 状态;
+)
+
+
+
+模块名:rotation
+类名:SubsidyStandard
+作者:caiwenxian
+描述:岗位补贴标准
+#参数[变量类型  变量名 ]
+#parameter--------------
+(
+String arrangement 岗位层级;
+String rotationArrangement 轮岗层级;
+Double standard 补贴标准;
+)
+
+
+模块名:rotation
+类名:RotationStatistics
+作者:caiwenxian
+描述:岗位轮换统计
+#参数[变量类型  变量名 ]
+#parameter--------------
+(
+String area 地区;
+String department 项目组/部门;
+String name 姓名;
+String position 岗位;
+String arrangement 岗位层级;
+String rotationArrangement 轮岗层级;
+String rotationManager 轮换管理人员
+String rotationStartTime 轮岗开始时间;
+String rotationEndTime 轮岗结束时间;
+Integer cycle 在岗时长;
+String positionSubsidy 岗位补贴;
+Boolean rotation 是否该轮岗;
+Boolean delay 是否延后;
+Integer delayTimes 延后次数;
+integer delayPositionTime 延后的在岗时长;
+String delayRotation （延后）是否应该轮岗;
+String rotationTimes 轮岗次数;
+String remark 备注;
+)
+
+
+
+模块名:rotation
+类名:currentPosition
+作者:caiwenxian
+描述:目前岗位情况
+#参数[变量类型  变量名 ]
+#parameter--------------
+(
+String name 姓名;
+String area 地区;
+String department 项目组/部门;
+String entryTime 入职时间;
+String turnPositiveTime 转正时间;
+String arrangement 岗位层级;
+String ratationArrangement 轮岗层级;
+String getTime 获得时间;
+Integer ratationCycle 轮岗时长;
+Integer rotation 轮岗次数;
+)
+

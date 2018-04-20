@@ -1,0 +1,39 @@
+模块名:socialinsurance
+类名:SocialInsurance
+作者:caiwenxian
+描述:社会保险管理
+#参数[变量类型  变量名 ]
+#parameter--------------
+(
+String taxDate 税费所属时期;
+String taxpayer 纳税人名称;
+String companySSNumber 单位社保号;
+String name 姓名;
+String idCard 身份证明号码;
+String cardName 证件名称;
+String personalSSNumber 个人社保号;
+Double pensionInsuranceWage 基本养老保险/计费工资;
+Double pensionInsuranceCompany 基本养老保险/单位;
+Double pensionInsurancePerson 基本养老保险/个人;
+Double injuryInsuranceWage 工伤保险/计费工资;
+Double injuryInsuranceCompany 工伤保险/单位;
+Double injuryInsurancePerson 工伤保险/个人;
+Double unemploymentInsuranceWage 失业保险/计费工资;
+Double unemploymentInsuranceCompany 失业保险/单位;
+Double unemploymentInsurancePerson 失业保险/个人;
+Double medicalInsuranceWage 职工社会医疗保险/计费工资;
+Double medicalInsuranceCompany 职工社会医疗保险/单位;
+Double medicalInsurancePerson 职工社会医疗保险/个人;
+Double diseaseInsuranceWage 职工重大疾病医疗补助/计费工资;
+Double diseaseInsuranceCompany 职工重大疾病医疗补助/单位;
+Double diseaseInsurancePerson 职工重大疾病医疗补助/个人;
+Double fertilityInsuranceWage 生育保险/计费工资;
+Double fertilityInsuranceCompany 生育保险/单位;
+Double fertilityInsurancePerson 生育保险/个人;
+Double companyTotal 单位合计;
+Double personlTotal 个人合计;
+Double amountDue 应缴金额;
+String department 部门;
+)
+
+
